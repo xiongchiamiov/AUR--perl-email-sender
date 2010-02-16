@@ -1,7 +1,7 @@
 # Contributor: James Pearson <james.m.pearson+arch@gmail.com>
 
 pkgname=perl-email-sender
-pkgver=0.100110
+pkgver=0.100460
 pkgrel=1
 pkgdesc="Email::Sender - a library for sending email"
 arch=('i686' 'x86_64')
@@ -10,7 +10,7 @@ license=('PerlArtistic')
 depends=('perl' 'perl-moose' 'perl-email-abstract')
 options=(!emptydirs)
 source=(http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Email-Sender-$pkgver.tar.gz)
-md5sums=('6d3366cda79d469a87eaf4865138048d')
+md5sums=('659d0d542ebc843208d42b04c43e1188')
 
 build() {
   cd "$srcdir/Email-Sender-$pkgver"
